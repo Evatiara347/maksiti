@@ -1,0 +1,90 @@
+@font-face {
+    font-family: Balsamiq;
+    src: url("asset/font/BalsamiqSans-Regular.ttf");
+}
+
+body {
+    background-color:#72302a;
+    color: white;
+}
+
+#titleHead {
+    font-family: Balsamiq;
+}
+
+.jumbotron {
+    background-image: linear-gradient( #463a3a90,#483f3fc4), url("asset/bg-new.jpg");
+    height: 100vh;
+    background-size: cover;
+    color: aliceblue;
+    text-align: center;
+    background-position:center ;
+    padding-top: 15rem;
+    width: 100%;
+}
+
+#tabmenu img {
+    width: 4rem;
+    height: 4rem;
+}
+
+#tabmenu {
+    height: 100vh;
+    padding-top: 13rem;
+}
+
+h1 {
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.card {
+    background-color: rgb(43, 43, 43);
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
+}
+#lightMode {
+    background-color: aliceblue;
+    color: black;
+}
+
+#lightMode .jumbotron {
+    background-image: linear-gradient( #cecece46,#c0c0c02c), url("asset/bg.jpg");
+    height: 100vh;
+    background-size: cover;
+    color: black;
+    text-align: center;
+    background-position:center ;
+    padding-top: 15rem;
+    width: 100%;
+}
+
+#lightMode .card {
+    background-color: rgb(10, 10, 9);
+    color: rgb(237, 232, 232);
+}
+
+#lightMode #check {
+    color: black;
+    border-color: black;
+}
+
+#anggota {
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+
+.navbar-brand{
+    margin-left: -10px;
+}
+
+.logo-nav{
+    width: 30px;
+    height: 30px;
+}
+
+.maps{
+    display: flex;
+    justify-content: center;
+}
